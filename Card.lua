@@ -53,7 +53,6 @@ function Card:flip(card)
 end
 
 function Card:update(dt)
-
 end
 
 function Card:render()

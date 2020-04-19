@@ -6,8 +6,7 @@ Deck = Class{}
 
 function Deck:init()
     cards = {}
-    self.shuffledDeck = {}
-
+    
     local count = 1
     
     for i=1,13 do
@@ -32,6 +31,7 @@ function Deck:init()
 end
 
 function Deck:shuffle()
+    self.shuffledDeck = {}
     for i, v in ipairs(cards) do
 	    local pos = math.random(1, #self.shuffledDeck+1)
 	    table.insert(self.shuffledDeck, pos, v)

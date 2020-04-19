@@ -57,3 +57,9 @@ gCards = {
 
     ['backside'] = love.graphics.newImage('resources/images/back_orange.png')
 }
+
+
+gFonts = {
+    ['score'] = love.graphics.newFont('resources/fonts/score.ttf', 20),
+    ['message'] = love.graphics.newFont('resources/fonts/score.ttf', 30)
+}
